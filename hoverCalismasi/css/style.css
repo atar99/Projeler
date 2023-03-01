@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(25,25,75);
+}
+.hover-panel{
+    background-color:rgb(50,50,70);
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1em;
+    color:rgb(19, 187, 243);
+}
+
+.hover-alani{
+    width: 50em;
+    height: fit-content;
+    margin: 10em auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.hover-kutu{
+    width: 1em;
+    height: 1em;
+    border: 0.1em solid rgb(25,25,75);
+    background-color: rgb(50,50,70);
+    transition: 250ms;
+}
+
+button{
+    background-color: rgb(19, 187, 243);
+    border:0;
+    border-radius: 1em;
+    width: 5em;
+    margin:0 1em 0 1em;
+    color: rgb(25,25,75);
+}
+button:hover{
+    background-color:#b341f6;
+}

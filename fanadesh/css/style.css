@@ -1,0 +1,316 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ .header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 60%;
+    font-size: large;
+ }
+ .logo{
+    font-weight: bold;
+    font-size: x-large;
+ }
+ header a{
+    color:white;
+    text-decoration: none;
+    margin: 0.25em;
+ }
+ header ul{
+    display: flex;
+   
+ }
+ header ul li{
+    list-style-type: none;
+    margin: 1em;
+ }
+ header ul li a{
+    color:white;
+    text-decoration: none;
+ }
+
+ .hero{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    background-color: transparent;
+ }
+ .hero-background{
+   background-image: url(../img/hero-bg.png);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+ .hero-icerik{
+    align-items: center;
+    margin: 2em 0 20em 0;
+    width: 50%;
+    color:white;
+ }
+ .hero-icerik h1{
+    font-size: 3em;
+    width: 7em;
+ }
+ .hero-icerik p{
+    width: 25em;
+    margin-block: 1em;
+    font-size:14px;
+ }
+ .hero-icerik button{
+    width: 12em;
+    height: 4em;
+    border-radius: 0.7em;
+    background-color: white;
+    border:0px;
+    margin-block: 1em;
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+ }
+ .section1{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+ }
+ .section1-icerik{
+    align-items: center;
+    margin: 6em;
+    width: 50%;
+    text-align: end;
+ }
+ .section1-icerik h1{
+    font-size: 1.75em;
+ }
+ .section1-icerik p{
+    margin-block: 2em;
+    font-size:14px;
+ }
+ .section1-icerik button{
+    width: 12em;
+    height: 4em;
+    border-radius: 0.7em;
+    background-color: #6ebca8;
+    border:0px;
+    margin-block: 1em;
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+ }
+ .section2{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+ }
+ .section2-icerik{
+    align-items: center;
+    margin: 6em;
+    width: 50%;
+ }
+
+ .section2-icerik p{
+    margin-block: 2em;
+    font-size:14px;
+ }
+ .section2-icerik button{
+    width: 12em;
+    height: 4em;
+    border-radius: 0.7em;
+    background-color: #fdd31d;
+    border:0px;
+    margin-block: 1em;
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+ }
+ .section3{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+ }
+ .section3-icerik{
+    align-items: center;
+    margin: 6em;
+    width: 50%;
+    text-align: end;
+ }
+
+ .section3-icerik p{
+    margin-block: 2em;
+    font-size:14px;
+ }
+ .section3-icerik button{
+    width: 12em;
+    height: 4em;
+    border-radius: 0.7em;
+    background-color: #6ebca8;
+    border:0px;
+    margin-block: 1em;
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+ }
+ .section4{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+ }
+ .section4-icerik{
+    align-items: center;
+    margin: 6em;
+    width: 50%;
+ }
+ .section4-icerik p{
+    margin-block: 2em;
+    font-size:14px;
+ }
+ .section4-icerik button{
+    width: 12em;
+    height: 4em;
+    border-radius: 0.7em;
+    background-color: #fdd31d;
+    border:0px;
+    margin-block: 1em;
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+ }
+ .testimontal{
+    width:60%;
+    margin:0 auto;
+    display:flex;
+ }
+ .testimontal-icerik{
+    margin-block: 6em;
+    margin-inline: 2em;
+ }
+ .testimontal-icerik p{
+    margin-block: 1em;
+ }
+ .testimontal-icerik h1{
+    color: #fdd31d;
+ }
+ .contact-us{
+    width: 60%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+ }
+ .contact-us-icerik form{
+    flex-direction: column;
+    display: flex;
+ }
+ .contact-us-icerik input{
+    border: 0px;
+    width: 40em;
+    height: 3em;
+    margin-block: 0.5em;
+    border:none;
+    border-bottom: 0.3em solid #fdd31d;
+    padding: 5px 10px;
+    outline: none;
+
+ }
+ .contact-us-messagebox{
+    height:7em !important;
+ }
+ .contact-us-icerik button{
+    width: 10em;
+    height: 3em;
+    border:0;
+    border-radius: 3em;
+    background-color: #6ebca8;
+    color:white;
+    margin-block: 2em;
+ }
+ .contact-us-image{
+    width: 40%;
+ }
+ footer{
+    background-color:rgb(30,30,30);
+    color:white;
+ }
+footer a{
+    text-decoration: none;
+    color:white;
+}
+footer ul li{
+    list-style-type: none;
+}
+.footer-head{
+text-align: center;
+text-decoration: 2px underline #fdd31d;
+}
+.footer-head h1{
+    padding-block: 2em;
+}
+.footer-main{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footermain1{
+    display: flex;
+}
+.footermain2{
+    display: flex;
+}
+.footermain1-1{
+    width: 40%;
+    margin-inline: 2em;
+}
+.footermain1-1 p{
+    margin-block: 1em;
+}
+.footermain1-2{
+    width: 40%;
+    margin-inline: 2em;
+}
+.footermain1-2 ul{
+    margin-block: 1em;
+}
+.footermain2-1{
+    width: 40%;
+    margin-inline: 2em;
+}
+.footermain2-1 p{
+    margin-block: 1em;
+}
+.footermain2-2{
+    width: 40%;
+    margin-inline: 2em;
+}
+.footermain2-2 input{
+    border:0;
+    width: 17em;
+    height: 3em;
+    margin-block: 1em;
+}
+.footermain2-2 button{
+    border:0;
+    background-color: #fdd31d;
+    width: 7em;
+    height: 3em;
+}
+
+.footer-end{
+   background-color:rgb(30,30,30);
+    border-top: 1px solid gray;
+    height: 1em;
+    width: 60%;
+    margin: 0 auto;
+}
+.footer-end-images{
+   width: 100%;
+   text-align: center;
+   margin:1em auto;
+}
+.page-end{
+   background-color: #d8b109;
+   margin-block: 5em auto;
+   text-align: center;
+   height: 3em;
+   margin-bottom:5em;
+}
